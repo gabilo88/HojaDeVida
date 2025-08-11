@@ -3,17 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <title>Hoja de vida</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
         <img src="Foto perfil.jpg" alt="Imagen de ejemplo" width="20%" height="20%">
         <h1>Gaby Lorena Guerrero Mera</h1>
-        <p>gaby.guerrero.ttv.717@unilibre.edu.co</p>
+        gaby.guerrero.ttv.717@unilibre.edu.co
+        <a href="https://www.linkedin.com/in/gaby-lorena-guerrero-mera-7ba958112/" target="_blank" class="social-linkedin">
+                  <img src="logoLinkedin.png" alt="LinkedIn">
+           </a>
     </header>
     
-    <hr>
     <nav>
-        <h2> Indice </h2>
         <ul>
             <li><a href="#acerca"> Acerca de mí </a></li>
             <li><a href="#experiencia"> Experiencia Laboral </a></li>
@@ -22,20 +24,21 @@
             <li><a href="#Miformulario"> Mi formulario</a></li>
         </ul>
     </nav>
-    <br>
-    <hr>
-    <br>
+    
     <section id="acerca">
         <h2>Acerca de mi</h2>
         <p> Soy ingeniera de sistemas con especialización en gerencia de proyectos.
           Me gusta brindar solución a problemas de la vida real.</p>
-          <p>Mi hobbie es leer, hacer deporte (baile deportivo, step), fotografiar el cielo</p>
-          <br><hr>
+          <p>Soy de la hermosa ciudad de Popayán, pero vivo en Cali hace 12 años.</p>
+          <p>Mi hobbie es leer: de preferencia libros de superación personal, me gusta
+            hacer deporte (baile deportivo, step, caminar), Disfruto pasear y fotografiar el cielo</p>
+          <p>Soy una persona alegre, honesta, responsable, que le gusta ayudar a los demás.</p>
+          <br>
         </section> 
 
     <section id="experiencia">
             <h2>Experiencia laboral</h2>
-             <table border="=1" cellpaging="8" cellspacing="3" width="50%">
+             <table>
                   <tr>
                     <th>Cargo</th>
                     <th>Empresa</th>
@@ -73,12 +76,12 @@
                     <td>Presencial</td>
                   </tr>
               </table>
-            <br><hr>
+            <br>
     </section>
 
     <section id="estudios">
             <h2>Estudios</h2>
-             <table border="=1" cellpaging="8" cellspacing="3" width="50%">
+             <table>
                   <tr>
                     <th>Institución</th>
                     <th>Título</th>
@@ -115,7 +118,7 @@
                     <td>Año: 2015</td>
                   </tr>
               </table>
-            <br><hr>
+            <br>
     </section>
 
     <section id="referencias">
@@ -124,14 +127,12 @@
             <p>Oscar Felipe Palacios. <br> Administrador de empresas. <br> Celular: 989566331</p>
             <h3>Referencia personal 2</h3>
             <p>Viviana Andrea Guerrero Mera. <br> Contadora pública. <br>Celular: 345126799</p>
-            <br>
-            <hr>
     </section>
 
     <section id="Miformulario">
         <h2>¡Dejame tus Comentarios!</h2>
           <form>
-                <label for="fname">Nombre completo</label>
+                <label for="fname">Nombre completo</label> 
                 <input type="text" id="fname" name="fname" value=""><br>
                 <label for="lname">Contacto</label>
                 <input type="text" id="lname" name="lname" value=""><br><br>
@@ -142,7 +143,6 @@
     </section>
 
     <footer>
-      <br><br>
       <p>2025 Gestión hoja de vida. Todos los derechos reservados</p>
       <p>Santiago de Cali, Valle del Cauca, Colombia</p>
     </footer>

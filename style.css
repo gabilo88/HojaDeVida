@@ -1,0 +1,201 @@
+body {
+      font-family: 'Segoe UI',Verdana, Tahoma, Geneva, sans-serif;
+      background-color: lightgray ; /*#f5f5f5*/
+      padding: 40px;
+    }
+
+/*ESTILOS PARA EL ENCABEZADO*/
+header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2px;
+}
+
+/*ESTILOS EN LA IMAGEN DEL ENCABEZADO*/
+header img {
+      width: 150px;
+      height: 200px;
+      border-radius: 20%;
+      margin-bottom: 5px;
+}
+
+/*ESTILO PARA EL TITULO QUE CONTIENE MI NOMBRE*/
+header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color:#555;
+}
+
+.social-linkedin img {
+      width: 82px;               /* Tamaño pequeño */
+      height: 42px;              /* Mantiene proporción cuadrada */
+      border-radius: 6px;        /* Bordes ligeramente redondeados */
+      transition: transform 0.3s, opacity 0.3s;
+}
+
+/* ESTILOS PARA LA NAVEGACION - MENU*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: cornflowerblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: DarkSlateBlue ;
+}
+
+
+/*ESTILOS PARA LA SESION ACERCA DE MI*/
+#acerca {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 100%;
+      margin-top: 20px;
+}
+
+#acerca h2 {
+      border-bottom: 2px solid cornflowerblue; 
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+}
+
+#acerca p {
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+      color: #060000;
+}
+
+#acerca p::before {
+    content: "➤ ";
+    color: cornflowerblue;
+}
+
+
+#experiencia, #estudios {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+
+
+
+/*ESTILOS TABLAS*/
+ table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+th, td {
+      padding: 16px 20px;
+      text-align: left;
+    }
+
+th {
+      background-color: cadetblue;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+tr:nth-child(even) {
+      background-color: #f3f1f1;    
+    }
+
+/*ESTILOS DE LAS REFERENCIAS*/
+
+#referencias {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 100%;
+      margin: 0 auto;
+}
+
+#referencias h2 {
+      border-bottom: 2px solid cornflowerblue;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+}
+
+ #referencias h3 {
+      margin-top: 30px;
+      color: #34495e;
+      font-size: 20px;
+}
+
+#referencias p {
+      margin: 10px 0 20px;
+      line-height: 1.5;
+      background-color: #f9f9f9;
+      padding: 15px;
+      border-left: 4px solid cornflowerblue;
+      border-right: 4px solid cornflowerblue;
+      border-radius: 6px;
+}
+
+
+/*ESTILOS DEL FORMULARIO*/
+#Miformulario {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 100%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+
+label {
+      display: block;
+      margin: 10px 0;
+      font-weight: bold;
+      color: gray;
+}
+
+input{
+      padding: 8px;
+      margin-top: 3px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: border 0.5s;
+}
+
+/*ESTILOS DEL PIE DE PAGINA*/
+footer {
+      background-color: cornflowerblue; /*2c3e50*/
+      color: #ecf0f1;
+      padding: 10px 20px;
+      text-align: center;
+}
